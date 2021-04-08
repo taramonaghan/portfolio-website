@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- add favicon here -->
+  <title>Tara Monaghan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- add font here -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.production.css">
+</head>
+<body>
+  <!-- Header including the logo and the main navigation -->
+  <header class="page-header">
+    <!-- Add logo here -->
+    <img src="img/logo.jpg" alt="logo" class="page-header__item">
+    <nav class="main-navigation page-header__item"></nav>
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem" class="navigation list__item">Home</a>
+      </li>
+      <li role="presentation">
+        <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+      </li>
+      <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+       </li>
+      <li role="presentation">
+        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div class="h1">
+<h1>Contact Me</h1>
+</div>
+
+
+<address class="address">
+Tara Monaghan<br>
+1 Keen CT<br>
+Brooklyn, NY 11229<br>
+<br>
+Tel <a href="tel:7188105828">718-810-5828</a><br>
+Skype <a href="live:taramonaghan1022">live:taramonaghan1022</a><br>
+<a href="mailto:Taramonaghan@gmail.com">taramonaghan1022@gmail.com</a>
+<a href="mailto:taramonaghan1022@gmail.com">Contact me</a>
+</address>
+
+<div class= "form">
+<form action="" method="post" id="contact-form">
+  <label class="standard-label" for="contact-email">E-mail: </label>
+  <input type="email" id="contact-email" required><br>
+
+  <label class="standard-label" for="contact-telephone">Telephone: </label>
+  <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone"><br>
+
+  <label class="standard-label" for="my-input">Message: </label>
+  <textarea maxlength="240" id="my-input" required></textarea><br>
+ <br><input type="submit" value="send message"><br>
+</form>
+</div>
+
+<footer class="page-footer">
+  <p>Find me on</p>
+  <div class="social-media">
+  <!-- Add images here -->
+    <img src="img/github.svg" alt="Github" height="">
+    <img src="img/twitter.svg" alt="Twitter">
+    <img src="img/linkedin.svg" alt="LinkedIn">
+  </div>
+</footer>
+
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
