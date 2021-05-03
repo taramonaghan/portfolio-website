@@ -1,4 +1,3 @@
-
 let pokemonList = [{
     name: "Bulbasaur", 
     height float: 0.7, 
